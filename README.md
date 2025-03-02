@@ -3,7 +3,7 @@
 ~2.4 sharpe in sample, ~2.3 sharpe out-of-sample, ~1.7 sharpe with transaction cost
 
 This model will trade equity returns by using fixed income risk premia as an inputted variable.
-1. The equity premia will be simply be calculated as the equal weight spread between Russell indices and SPX
+1. The equity premia will be simply calculated as the equal weight spread between Russell indices and SPX
 2. The fixed income premia will be calculated as the equal weight return of High Yield - Investment Grade and Fallen Angel - High Yield
 
 A later goal is to build out the same model using factor returns and also exploring other equity risk premia returns such as sector and ETF style, and also investigate other equity risk premias such as emerging markets and try to build the model inversely for fixed income returns. 
@@ -19,8 +19,8 @@ Equal weight returns is used for portfolio optimization as it yielded the same r
 
 To optimize the signal
 1. Using a z-score which generates about the same return ```(preopt signal)```
-2. Threhsolding the z-score to reduce turnover ```(opt signal)```
-4. Adding transaction cost the optimized signal ```(opt signal with tc)```
+2. Thresholding the z-score to reduce turnover ```(opt signal)```
+3. Adding transaction cost the optimized signal ```(opt signal with tc)```
 
 ![image](https://github.com/user-attachments/assets/c55c6d4b-767d-4332-8947-bbc3d793c256)
 
