@@ -6,7 +6,7 @@ This model will trade equity returns by using fixed income risk premia as an inp
 1. The equity premia will be simply be calculated as the equal weight spread between Russell indices and SPX
 2. The fixed income premia will be calculated as the equal weight return of High Yield - Investment Grade and Fallen Angel - High Yield
 
-A later goal is to build out the same model using factor returns and also exploring other equity risk premia returns such as sector and ETF style. 
+A later goal is to build out the same model using factor returns and also exploring other equity risk premia returns such as sector and ETF style, and also investigate other equity risk premias such as emerging markets and try to build the model inversely for fixed income returns. 
 
 The model uses a OLS regression and trades residuals. There are three models that are tested
 1. Full Sample OLS Regression
