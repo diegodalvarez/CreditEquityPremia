@@ -17,7 +17,10 @@ Equal weight returns is used for portfolio optimization as it yielded the same r
 
 ![image](https://github.com/user-attachments/assets/abf8b8a8-5a64-48ca-9bd9-7e97ffd120af)
 
-Optimizing signal by using a z-score and thresholding it to reduce turnover and transaction cost generates susbtantial returns
+To optimize the signal
+1. Using a z-score which generates about the same return ```(preopt signal)```
+2. Threhsolding the z-score to reduce turnover ```(opt signal)```
+4. Adding transaction cost the optimized signal ```(opt signal with tc)```
 
 ![image](https://github.com/user-attachments/assets/c55c6d4b-767d-4332-8947-bbc3d793c256)
 
